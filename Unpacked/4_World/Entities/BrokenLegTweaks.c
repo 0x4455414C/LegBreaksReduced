@@ -5,8 +5,8 @@ modded class BrokenLegsMdfr
 		if ( !m_IsActive && m_ShouldBeActive )
 		{
 			float willLegBreak = Math.RandomFloatInclusive(0.0, 1.0);
-			Print("OnTick");
-			Print(willLegBreak);
+			// Print("OnTick");
+			// Print(willLegBreak);
 			if (willLegBreak <= LegBreakCfg.chanceOfLegBreak){
 				Activate();
 			} else {
